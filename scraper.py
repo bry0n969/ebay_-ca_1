@@ -5,9 +5,9 @@ import scraperwiki
 import scraperwiki           
 import lxml.html           
 
-urls = ["http://www.ebay.com/sch/i.html?_sacat=0&_mPrRngCbx=1&_nkw=sunglasses&rt=nc&LH_TopRatedSellers=1"]
+urls = ["http://www.ebay.com/sch/m.html?_nkw=&_armrs=1&_from=&_ssn=offroadbelts&_pgn=2&_skc=200&rt=nc"]
 
-max_pages = 10
+max_pages = 10000
 
 for wurl in urls:
     curr_url = wurl 
